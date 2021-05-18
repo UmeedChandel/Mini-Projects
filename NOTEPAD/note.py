@@ -47,14 +47,14 @@ b2.pack(in_ = top, side=LEFT)
 b3 = Button(note, text="Clear", bg = "#000000",foreground= "white",borderwidth="3", command = clearFile)
 b3.pack(in_ = top, side=LEFT)
 
-b4 = Button(note, text="Exit", bg = "#000000",foreground= "white",borderwidth="3", command = exit)
-b4.pack(in_ = top, side=LEFT)
-
 b4 = Button(note, text="Dark", bg = "#000000",foreground= "white",borderwidth="3", command = switchModeD)
 b4.pack(in_ = top, side=LEFT)
 
 b5 = Button(note, text="Light", bg = "#000000",foreground= "white",borderwidth="3", command = switchModeL)
 b5.pack(in_ = top, side=LEFT)
+
+b4 = Button(note, text="Exit", bg = "#000000",foreground= "white",borderwidth="3", command = exit)
+b4.pack(in_ = top, side=LEFT)
 
 padSpace = Text(note, wrap = WORD, bg = "#F2F2F8", font = ("poppins", 15))
 padSpace.pack(padx = 10, pady = 10, expand = TRUE, fill = BOTH)
